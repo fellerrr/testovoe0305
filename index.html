@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+<!--        <div class="header_logo"></div>-->
+        <div class="container">
+            <nav class="header__menu" >
+                <a href="#" class="header__menu_logo">
+                    <img src="./assets/images/logo.svg" width="247" height="35" alt="logo">
+                </a>
+
+                <div class="navbar-toggle" data-nav-toggler>
+                    <span class="navbar-toggle-icon"></span>
+                </div>
+
+                <ul class="header__menu__list" >
+                    <li class="header__menu__list_item">
+                        <a href="#" class="navbar-link hover-underline ">
+                            <span class="span">Бизнес</span>
+                        </a>
+                    </li>
+                    <li class="header__menu__list_item" >
+                        <a href="#hero" class="navbar-link hover-underline ">
+                            <span class="span">О нас</span>
+                        </a>
+                    </li>
+                    <li class="header__menu__list_item" >
+                        <a href="#hero" class="navbar-link hover-underline ">
+                            <span class="span">Цены</span>
+                        </a>
+                    </li>
+                    <li class="header__menu__list_item" >
+                        <a href="#ordering" class="navbar-link hover-underline ">
+                            <span class="span">Оформить заказ</span>
+                        </a>
+                    </li>
+                </ul>
+
+
+
+
+            </nav>
+            <ul class="header__mobilemenu__list" data-navbar>
+                <div class="header__mobilemenu__list__items">
+                    <ul>
+                        <li data-mobMenu><a href="#">Бизнес</a></li>
+                        <li data-mobMenu><a href="#">О нас</a></li>
+                        <li data-mobMenu><a href="#">Заказать</a></li>
+                        <li data-mobMenu><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <h1 class="hero_title">
+                    Lorem ipsum
+                    <span class="hero_title_black">dolor sit
+                        <br>amet consectetur
+                    </span>
+                    adipiscing
+                </h1>
+                <div class="hero_subtitle">
+                    <span class="hero_subtitle_head">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus!
+                    </span>
+                    <p class="hero_subtitle_content">
+                        - Totam rem aperiam eaque ipsa<br>
+                        - Sit voluptatem accusantium doloremque laudantium<br>
+                        - Sed ut perspiciatis, unde omnis iste natus error
+                    </p>
+                </div>
+                <div class="hero_buttons">
+                    <button class="btn btn_order">
+                        Заказать
+                    </button>
+                    <button class="btn btn_detailed">
+                        Подробнее
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="ordering" id="ordering">
+            <div class="container">
+                <h2 class="ordering__title">
+                    Оформление&ensp;
+                    <span class="ordering__title_blue">Заказа</span>
+                </h2>
+                <p class="ordering__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+                    <div class="ordering__row">
+                        <img class="ordering__row_points" src="./assets/images/points.png" alt="points">
+                        <div class="ordering__row__item">
+                            <img src="./assets/images/cir1.svg" width="100" height="100" alt="circle1">
+                            <p class="ordering__row__item_title">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="ordering__row__item">
+                            <img src="./assets/images/cir2.svg" width="100" height="100" alt="circle2">
+                            <p class="ordering__row__item_title">Сonsecteturadipiscing elit</p>
+                        </div>
+                        <div class="ordering__row__item">
+                            <img src="./assets/images/cir3.svg" width="100" height="100" alt="circle3">
+                            <p class="ordering__row__item_title">Sed do eiusmod tempor</p>
+                        </div>
+                        <div class="ordering__row__item">
+                            <img src="./assets/images/cir4.svg" width="100" height="100" alt="circle4">
+                            <p class="ordering__row__item_title">Esse cillum dolore
+                                eu fugiat</p>
+                        </div>
+                        <div class="ordering__row__item">
+                            <img src="./assets/images/cir5.svg" width="100" height="100" alt="circle4">
+                            <p class="ordering__row__item_title">Excepteur sint occaecat cupidatat non proident</p>
+                        </div>
+                    </div>
+                    <form class="ordering__form">
+                        <select
+                                class="ordering__form__select"
+                                id="select"
+                                name="select"
+                        >
+                            <option
+                                class="ordering__form__select__value_label"
+                                value=""
+                                disabled
+                                selected
+                                hidden
+                            >
+                                Выберите тип системы
+                            </option>
+                            <option class="ordering__form__select__value_listItem" value="value1">
+                                Sed ut perspiciatis
+                            </option>
+                            <option class="ordering__form__select__value_listItem" value="value2">
+                                Nemo enim ipsam
+                            </option>
+                            <option class="ordering__form__select__value_listItem" value="value3">
+                                Et harum quidem
+                            </option>
+                            <option class="ordering__form__select__value_listItem" value="value4">
+                                Temporibus autem
+                            </option>
+                            <option class="ordering__form__select__value_listItem" value="value5">
+                                Itaque earum rerum
+                            </option>
+                            <option class="ordering__form__select__value_listItem" value="value6">
+                                Et harum quidem
+                            </option>
+                        </select>
+
+                        <input class="ordering__form__input" id="email" type="email" name="email" placeholder="Ваш e-mail" required>
+                        <input class="ordering__form__input" id="name" type="text" name="name" placeholder="Ваше имя" required>
+
+                        <div class="ordering__form__range">
+                            <div class="ordering__form__range_label">
+                                <label for="myRange">Sed ut perspiciatis, unde omnis iste natus</label>
+                                <div>
+                                    <span id="rangeValue">75</span>&ensp;%
+                                </div>
+                            </div>
+                            <input
+                                class="ordering__form__range_input"
+                                type="range"
+                                id="myRange"
+                                name="range"
+                                min="0" max="100"
+                                value="50"
+                            >
+                            <script>
+                              let slider = document.getElementById("myRange");
+                              let output = document.getElementById("rangeValue");
+                              slider.oninput = function() {
+                                output.textContent = this.value;
+                              }
+                            </script>
+                        </div>
+
+                        <label class="ordering__form__file" for="file">
+                            <img src="./assets/images/file.svg" alt="file">
+                            Прикрепить файл
+                        </label>
+                        <input class="ordering__form__file_input" id="file" type="file" name="file">
+
+                        <button class="ordering__form__submit" type="submit">Отправить</button>
+                    </form>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__rights">
+                    © 2018 «LoremIpsum.net» Все права защищены.
+                </div>
+                <div class="footer__pay">
+                    <div class="footer__pay_item">
+                        <img src="./assets/images/qiwi.svg" alt="qiwi">
+                        <span>Qiwi wallet</span>
+                    </div>
+                    <div class="footer__pay_item">
+                        <img src="./assets/images/yamoney.svg" alt="yamoney">
+                        <span>Yandex Money</span>
+                    </div>
+                    <div class="footer__pay_item">
+                        <img src="./assets/images/webmoney.svg" alt="webmoney">
+                        <span>Web Money</span>
+                    </div>
+                </div>
+                <div class="footer__contacts">
+                    <a href="info@ipsum228.com">
+                        <div class="footer__contacts_item">
+                            <img src="./assets/images/mail.svg" alt="mail">
+                            <span>info@ipsum228.com</span>
+                        </div>
+                    </a>
+                    <a href="https://vk.com/">
+                        <div class="footer__contacts_item">
+                            <img src="./assets/images/vk.svg" alt="vk">
+                            <span>Мы вконтакте</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script>
+      document.querySelector('.navbar-toggle').addEventListener('click', function() {
+        this.classList.toggle('active');
+        const navbar = document.querySelector('[data-navbar]');
+        navbar.classList.toggle('active')
+      });
+    </script>
+</body>
+</html>
